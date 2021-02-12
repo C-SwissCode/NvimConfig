@@ -15,6 +15,15 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" Status Line
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'
+	" file and search managers
+	Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}	
+	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+	Plug 'junegunn/fzf.vim'
+	Plug 'airblade/vim-rooter'
+	" Colors
+	Plug 'norcalli/nvim-colorizer.lua'
+	Plug 'junegunn/rainbow_parentheses.vim'
+
 
 	call plug#end()
 
