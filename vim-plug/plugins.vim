@@ -32,6 +32,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'junegunn/gv.vim'
 	" Sneaking and jumping arround
 	Plug 'justinmk/vim-sneak'	
+	" Which Key - Never forget key-shortcuts
+	Plug 'liuchengxu/vim-which-key'	
 
 
 	call plug#end()
