@@ -23,6 +23,15 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" Colors
 	Plug 'norcalli/nvim-colorizer.lua'
 	Plug 'junegunn/rainbow_parentheses.vim'
+	" Startify
+	Plug 'mhinz/vim-startify' 
+	"Git integration
+	Plug 'mhinz/vim-signify'
+	Plug 'tpope/vim-fugitive'
+	Plug 'tpope/vim-rhubarb'
+	Plug 'junegunn/gv.vim'
+	" Sneaking and jumping arround
+	Plug 'justinmk/vim-sneak'	
 
 
 	call plug#end()
