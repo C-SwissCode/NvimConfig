@@ -41,3 +41,7 @@ nnoremap <C-l> <C-w>l
 
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
+
+" Floaterm Kill Workaround
+nnoremap <silent> <F5>    :FloatermKill!<CR>
+tnoremap <silent> <F5>    <C-\><C-n>:FloatermKill!<CR>

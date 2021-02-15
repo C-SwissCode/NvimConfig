@@ -34,7 +34,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'justinmk/vim-sneak'	
 	" Which Key - Never forget key-shortcuts
 	Plug 'liuchengxu/vim-which-key'	
-
+	Plug 'voldikss/vim-floaterm'
+	" Snippets
+	Plug 'honza/vim-snippets'	
 
 	call plug#end()
 
