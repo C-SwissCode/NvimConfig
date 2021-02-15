@@ -18,5 +18,8 @@
   "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
-  }
+  },
+
+  //Adding snippets, any snippet file added to the snips directory will be added to coc and can be used
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snips"
 }
