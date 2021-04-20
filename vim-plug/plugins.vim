@@ -9,7 +9,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" Themes
 	Plug 'joshdick/onedark.vim'
 	" Stable version of coc
-	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+	" LSP
+	Plug 'neovim/nvim-lspconfig'	
+	" Autocomplete
+	Plug 'hrsh7th/nvim-compe'
+	Plug 'hrsh7th/vim-vsnip'
+	Plug 'rafamadriz/friendly-snippets'
 	" Commenting
 	Plug 'tpope/vim-commentary'
 	" Status Line
@@ -35,8 +41,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" Which Key - Never forget key-shortcuts
 	Plug 'liuchengxu/vim-which-key'	
 	Plug 'voldikss/vim-floaterm'
-	" Snippets
-	Plug 'honza/vim-snippets'	
 
 	call plug#end()
 
